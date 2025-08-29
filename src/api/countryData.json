@@ -1,0 +1,142 @@
+[
+  {
+    "ID": 1,
+    "CountryName": "India",
+    "Capital": "New Delhi",
+    "Population": "1,41,00,00,000",
+    "InterestingFact": "India is the world’s largest democracy and home to the Taj Mahal, one of the Seven Wonders of the World."
+  },
+  {
+    "ID": 2,
+    "CountryName": "United States",
+    "Capital": "Washington, D.C.",
+    "Population": "33,40,00,000",
+    "InterestingFact": "The U.S. has the world’s largest economy and is home to the Grand Canyon, one of the seven natural wonders."
+  },
+  {
+    "ID": 3,
+    "CountryName": "China",
+    "Capital": "Beijing",
+    "Population": "1,41,20,00,000",
+    "InterestingFact": "China’s Great Wall is the longest man-made structure in the world."
+  },
+  {
+    "ID": 4,
+    "CountryName": "Japan",
+    "Capital": "Tokyo",
+    "Population": "12,57,00,000",
+    "InterestingFact": "Japan is made up of over 6,800 islands and is famous for its cherry blossoms."
+  },
+  {
+    "ID": 5,
+    "CountryName": "Brazil",
+    "Capital": "Brasília",
+    "Population": "21,40,00,000",
+    "InterestingFact": "Brazil is home to the Amazon Rainforest, which produces about 20% of the world’s oxygen."
+  },
+  {
+    "ID": 6,
+    "CountryName": "Australia",
+    "Capital": "Canberra",
+    "Population": "2,60,00,000",
+    "InterestingFact": "Australia is the only continent covered by a single country."
+  },
+  {
+    "ID": 7,
+    "CountryName": "Canada",
+    "Capital": "Ottawa",
+    "Population": "3,90,00,000",
+    "InterestingFact": "Canada has more lakes than the rest of the world combined."
+  },
+  {
+    "ID": 8,
+    "CountryName": "Germany",
+    "Capital": "Berlin",
+    "Population": "8,40,00,000",
+    "InterestingFact": "Germany is famous for its Autobahn highways which have stretches with no speed limits."
+  },
+  {
+    "ID": 9,
+    "CountryName": "France",
+    "Capital": "Paris",
+    "Population": "6,80,00,000",
+    "InterestingFact": "France is the most visited country in the world."
+  },
+  {
+    "ID": 10,
+    "CountryName": "United Kingdom",
+    "Capital": "London",
+    "Population": "6,70,00,000",
+    "InterestingFact": "The UK is made up of four countries: England, Scotland, Wales, and Northern Ireland."
+  },
+  {
+    "ID": 11,
+    "CountryName": "Italy",
+    "Capital": "Rome",
+    "Population": "5,90,00,000",
+    "InterestingFact": "Rome is home to Vatican City, the smallest country in the world."
+  },
+  {
+    "ID": 12,
+    "CountryName": "Russia",
+    "Capital": "Moscow",
+    "Population": "14,40,00,000",
+    "InterestingFact": "Russia is the largest country in the world, spanning 11 time zones."
+  },
+  {
+    "ID": 13,
+    "CountryName": "South Africa",
+    "Capital": "Pretoria, Bloemfontein, Cape Town",
+    "Population": "6,00,00,000",
+    "InterestingFact": "South Africa has three capital cities, each serving a different function."
+  },
+  {
+    "ID": 14,
+    "CountryName": "Egypt",
+    "Capital": "Cairo",
+    "Population": "11,00,00,000",
+    "InterestingFact": "Egypt is home to the Pyramids of Giza, the last surviving wonder of the ancient world."
+  },
+  {
+    "ID": 15,
+    "CountryName": "Mexico",
+    "Capital": "Mexico City",
+    "Population": "12,70,00,000",
+    "InterestingFact": "Mexico introduced chocolate, chilies, and corn to the world."
+  },
+  {
+    "ID": 16,
+    "CountryName": "Argentina",
+    "Capital": "Buenos Aires",
+    "Population": "4,60,00,000",
+    "InterestingFact": "Argentina is the birthplace of tango music and dance."
+  },
+  {
+    "ID": 17,
+    "CountryName": "Spain",
+    "Capital": "Madrid",
+    "Population": "4,80,00,000",
+    "InterestingFact": "Spain produces over half of the world’s olive oil."
+  },
+  {
+    "ID": 18,
+    "CountryName": "South Korea",
+    "Capital": "Seoul",
+    "Population": "5,20,00,000",
+    "InterestingFact": "South Korea is one of the most wired countries in the world with super-fast internet speeds."
+  },
+  {
+    "ID": 19,
+    "CountryName": "Turkey",
+    "Capital": "Ankara",
+    "Population": "8,50,00,000",
+    "InterestingFact": "Istanbul, Turkey’s largest city, is the only city in the world that spans two continents."
+  },
+  {
+    "ID": 20,
+    "CountryName": "Indonesia",
+    "Capital": "Jakarta",
+    "Population": "27,70,00,000",
+    "InterestingFact": "Indonesia is made up of over 17,000 islands, making it the world’s largest archipelago."
+  }
+]
