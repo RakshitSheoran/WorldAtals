@@ -17,6 +17,7 @@ Interesting facts and descriptions
 The application presents data through visually appealing country cards and dedicated detail pages, making exploration both informative and engaging.
 
 🧭 Key Features
+
 🗺️ Country Exploration
 
 Browse countries displayed as dynamic cards
