@@ -6,6 +6,7 @@ import Home from "./pages/Home.jsx";
 import Contact from "./pages/Contact.jsx";
 import About from "./pages/About.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
+import CountryDetails from "./components/Layout/CountryDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,16 +19,20 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "About",
+        path: "about",
         element: <About></About>,
       },
       {
-        path: "Contact",
+        path: "contact",
         element: <Contact></Contact>,
       },
       {
-        path: "Country",
+        path: "country",
         element: <Country></Country>,
+      },
+      {
+        path: "country/:id",
+        element: <CountryDetails></CountryDetails>,
       },
     ],
   },

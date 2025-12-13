@@ -3,18 +3,18 @@
     "icon": "MdPlace",
     "index": 1,
     "title": "Find us",
-    "details": "Pune, Maharashtra"
+    "details": "Gurugram, Haryana"
   },
   {
     "icon": "IoCallSharp",
     "index": 2,
     "title": "Call us",
-    "details": "9876543211"
+    "details": "8950114027"
   },
   {
     "icon": "TbMailPlus",
     "index": 3,
     "title": "Mail us",
-    "details": "contact@kodyfier.com"
+    "details": "rakshitsheoran8@gmail.com"
   }
 ]
