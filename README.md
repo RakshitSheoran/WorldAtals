@@ -76,9 +76,17 @@ Design Focus: Component reusability & UI consistency
 📸 Screenshots
 
 Home - <img width="2537" height="1344" alt="image" src="https://github.com/user-attachments/assets/9c28f830-557c-4f33-bd91-1fb3867eca1a" />
+
+
 About - <img width="2545" height="1353" alt="image" src="https://github.com/user-attachments/assets/b47ba0e3-4af5-4d44-af16-7b2d8ce47f97" />
+
+
 Country - <img width="2532" height="1339" alt="image" src="https://github.com/user-attachments/assets/6a392e08-c481-4589-b5e4-296f054cb40c" />
+
+
 Contact Us - <img width="2537" height="1319" alt="image" src="https://github.com/user-attachments/assets/26005fb4-81d2-4d47-9b8b-6df60d3dfc98" />
+
+
 Detailed Country Page - <img width="2546" height="1355" alt="image" src="https://github.com/user-attachments/assets/e6f5ad3e-2567-4629-adba-b4045084b078" />
 
 🚀 Purpose of This Project
