@@ -1,5 +1,6 @@
 import countryData from "../api/countryData.json";
 function About() {
+
   return (
     <>
       <section className="section-about container">
