@@ -2,7 +2,6 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import { GiHamburgerMenu } from "react-icons/gi";
-// import "../../App.scss";
 
 const Headers = () => {
   const [show, setShow] = useState(false);
@@ -10,29 +9,40 @@ const Headers = () => {
     return setShow(!show);
   };
 
+  const autoClose = () => {
+    return;
+  };
   return (
     <header>
       <div className="container">
         <div className="grid navbar-grid">
           <div className="Logo">
-            <NavLink to="/">
-              <h1>WorldAtlas</h1>
+            <NavLink to="/" className="Heading-Top">
+              <h1 className="Heading">WorldAtlas</h1>
             </NavLink>
           </div>
 
           <nav className={show ? "menu-mobile" : "menu-web"}>
             <ul>
               <li>
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/" onClick={() => setShow(false)}>
+                  Home
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/about">About</NavLink>
+                <NavLink to="/about" onClick={() => setShow(false)}>
+                  About
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/country">Country</NavLink>
+                <NavLink to="/country" onClick={() => setShow(false)}>
+                  Country
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/contact" onClick={() => setShow(false)}>
+                  Contact
+                </NavLink>
               </li>
             </ul>
           </nav>
