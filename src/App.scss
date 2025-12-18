@@ -494,7 +494,13 @@ country Card
     justify-content: flex-end;
   }
 }
-
+.country-details-card .container-card {
+  margin: 3.2rem;
+}
+.container-card .grid-two-cols{
+  // background-color: yellow;
+  gap: 2rem;
+}
 .section-searchFilter {
   width: 100%;
   display: flex;
