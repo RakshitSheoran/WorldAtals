@@ -442,6 +442,7 @@ country Card
   // padding-left: 40px;
   // padding-right: 40px;
 }
+
 .country-section {
   margin: 6.4rem auto 9.6rem auto;
   & .grid {
@@ -456,7 +457,9 @@ country Card
     height: 16rem;
   }
 }
-
+.country-section .grid-four-cols {
+  padding: 3.2rem;
+}
 /* indivisual card container  */
 .country-details-card {
   max-width: 100%;
@@ -496,6 +499,7 @@ country Card
   width: 100%;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 3.2rem;
   padding: 0px 45px 0px;
@@ -571,7 +575,8 @@ contact us page
 .contact-wrapper {
   display: flex;
   justify-content: center;
-
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
   & form {
     display: flex;
     flex-direction: column;
@@ -653,7 +658,7 @@ contact us Page ends here
     grid-template-columns: 1fr;
   }
 }
-
+// @media screen and (max-width)
 /* //Loader  */
 .loader {
   width: 50px;
@@ -719,12 +724,53 @@ header nav a:hover {
   background: linear-gradient(71deg, #080509, #1a171c, #080509);
   font-family: "urbanist";
 }
+@media screen and (max-width: 869px) {
+  .section-searchFilter .select-section {
+    margin-top: 1.6rem;
+  }
+}
+@media screen and (max-width: 669px) {
+  .section-searchFilter {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-searchFilter .button-container {
+    margin-top: 1.6rem;
+    order: 3;
+    margin-left: 0px;
+  }
+  .section-searchFilter .searchField {
+    order: 1;
+    margin-top: 1.6rem;
+  }
+  .section-searchFilter .select-section {
+    order: 2;
+  }
+}
 
+@media screen and (max-width: 387px) {
+  .section-searchFilter {
+    // align-items: flex-start;
+    // margin: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .section-searchFilter {
+    align-items: flex-start;
+    // margin: 0px;
+    padding: 1.6rem;
+    // height: 40px;
+  }
+}
 .button-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 1.6rem;
+  margin-left: 1.6rem;
+  margin-right: 1.6rem;
 }
 .Ascending-button {
   margin: 0px !important;
