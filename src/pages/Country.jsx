@@ -1,12 +1,12 @@
 import { useEffect, useState, useTransition } from "react";
 import { getCountryData } from "../api/postApi";
-import { Link } from "react-router-dom";
 import Loader from "../components/UI/Loader";
 import CountryCard from "../components/UI/CountryCard";
 import SearchFilter from "../components/UI/SearchFilter";
 
 function Country() {
   const [countries, setCountries] = useState([]);
+  const [isLoading, setLoading] = useState(true);
   const [isPending, setTransition] = useTransition();
   const [search, setSearch] = useState();
   const [filter, setFilter] = useState();
@@ -15,14 +15,17 @@ function Country() {
   useEffect(() => {
     async function fetchData() {
       const result = await getCountryData();
+      await new Promise((res) => setTimeout(res, 1000));
       // console.log("Here is the result", result.data);
       setTransition(() => {
         setCountries(result.data);
       });
-      // setPending(false);
+      setLoading(false);
     }
+
     fetchData();
   }, []);
+
   /// Function for filtering based on search Input
   function searchCountry(country) {
     if (search) {
@@ -30,6 +33,7 @@ function Country() {
     }
     return true;
   }
+
   /// Function for filtering based on Region selection
   function filterRegion(country) {
     if (filter) {
@@ -40,6 +44,7 @@ function Country() {
     }
     return true;
   }
+
   // Function for calling both search(Input) and filter(region)
   const filterCountries = countries.filter((country) => {
     return searchCountry(country) && filterRegion(country);
@@ -47,9 +52,10 @@ function Country() {
 
   // console.log("filterCountries", filterCountries);
 
-  if (isPending) {
+  if (isLoading) {
     return (
       <div className="loaderContainer">
+        {console.log("Loading........", isLoading)}
         <Loader></Loader>
       </div>
     );

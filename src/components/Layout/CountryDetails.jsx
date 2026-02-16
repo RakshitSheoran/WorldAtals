@@ -1,3 +1,5 @@
+/// Indivisual Detailed Country Page ///
+
 import { useEffect, useState, useTransition } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { getIndvCountryData } from "../../api/postApi";
@@ -10,6 +12,7 @@ export default function CountryDetails() {
   const [country, setCountry] = useState();
 
   useEffect(() => {
+    console.log(`This is the params`, params);
     async function fetchData() {
       const res = await getIndvCountryData(params.id);
       console.log("This here is res", res);
@@ -19,7 +22,7 @@ export default function CountryDetails() {
       }
     }
     fetchData();
-  }, [country]);
+  }, []);
 
   if (pending)
     return (
