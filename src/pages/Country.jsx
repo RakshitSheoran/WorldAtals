@@ -22,7 +22,6 @@ function Country() {
       });
       setLoading(false);
     }
-
     fetchData();
   }, []);
 
