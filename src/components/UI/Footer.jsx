@@ -38,7 +38,7 @@ export default function Footer() {
             <div className="grid grid-two-cols">
               <div className="copyright-text">
                 <p>
-                  Copyright &copy; 20254, All Right Reserved
+                  Copyright &copy; 2025, All Right Reserved
                   <NavLink
                     to="https://www.linkedin.com/in/rakshit-sheoran-frontend-developer"
                     target="_blank"
