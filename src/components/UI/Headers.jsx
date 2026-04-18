@@ -39,11 +39,11 @@ const Headers = () => {
                   Country
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink to="/contact" onClick={() => setShow(false)}>
                   Contact
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </nav>
 

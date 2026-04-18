@@ -1,6 +1,9 @@
 import heroImg from "../../assets/HeroImage.png";
+import { NavLink } from "react-router-dom";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 export default function HeroSection() {
+  const navigate = useNavigate();
   return (
     <main className="hero-section">
       <div className="container grid grid-two-cols">
@@ -13,7 +16,7 @@ export default function HeroSection() {
             Discover the history, culture and beauty of every nation. Sort,
             search and filter thorugh countries to find the details you need
           </p>
-          <button>
+          <button onClick={() => navigate("/country")}>
             Start Exploring <FaLongArrowAltRight />
           </button>
         </div>
